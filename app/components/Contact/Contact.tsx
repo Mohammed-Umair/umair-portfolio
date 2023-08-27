@@ -36,7 +36,7 @@ export const Contact = (props: Props) => {
         justifyContent: "center",
         alignItems: "center",
         minHeight: "100vh",
-        marginTop: isMobile ? "60px" : "9px",
+        marginTop: isMobile ? "190px" : "9px",
       }}
     >
       <div
