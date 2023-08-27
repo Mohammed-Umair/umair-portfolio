@@ -53,19 +53,6 @@ const HomePage: React.FC = () => {
   const [skillArives, setSkillArives] = useState(false);
   const [contactClick, setContactClick] = useState<boolean>(false);
 
-  const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 768); // Adjust the breakpoint as needed
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobileView(window.innerWidth <= 768); // Adjust the breakpoint as needed
-    };
-
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
   const toggleMenu = () => {
     setMenuOpen(true);
   };
@@ -247,8 +234,9 @@ const HomePage: React.FC = () => {
             height: "100vh",
             textAlign: "center",
 
-            marginTop: isMobileView ? "300px" : "150px",
+            // marginTop: isMobileView ? "300px" : "150px",
           }}
+          className={styles.project}
         >
           <Project />
         </div>
@@ -264,49 +252,50 @@ const HomePage: React.FC = () => {
         >
           <Contact />
         </div>
-        {isMobileView && (
-          <div
-            style={{
-              width: "100vw",
-              height: "20vh",
-              textAlign: "center",
-              color: "black",
-            }}
-          >
-            <Anchor
-              direction="vertical"
-              className={styles.anchors}
-              style={{ color: "black", textDecoration: "none" }}
-              items={[
-                {
-                  key: "part-1",
-                  href: "#home",
-                  title: "",
-                },
-                {
-                  key: "part-2",
-                  href: "#about-me",
-                  title: "About-Me",
-                },
-                {
-                  key: "part-3",
-                  href: "#expericence",
-                  title: "Experience",
-                },
-                {
-                  key: "part-4",
-                  href: "#projects",
-                  title: "Projects",
-                },
-                {
-                  key: "part-5",
-                  href: "#contact",
-                  title: "Contact",
-                },
-              ]}
-            />
-          </div>
-        )}
+        {/* {isMobileView && ( */}
+        <div
+          style={{
+            width: "100vw",
+            height: "20vh",
+            textAlign: "center",
+            color: "black",
+          }}
+          className={styles.bottomAnchor}
+        >
+          <Anchor
+            direction="vertical"
+            className={styles.anchors}
+            style={{ color: "black", textDecoration: "none" }}
+            items={[
+              {
+                key: "part-1",
+                href: "#home",
+                title: "",
+              },
+              {
+                key: "part-2",
+                href: "#about-me",
+                title: "About-Me",
+              },
+              {
+                key: "part-3",
+                href: "#expericence",
+                title: "Experience",
+              },
+              {
+                key: "part-4",
+                href: "#projects",
+                title: "Projects",
+              },
+              {
+                key: "part-5",
+                href: "#contact",
+                title: "Contact",
+              },
+            ]}
+          />
+        </div>
+        {/* )} */}
         <div
           style={{
             textAlign: "center",

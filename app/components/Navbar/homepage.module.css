@@ -70,6 +70,13 @@
   width: 100vw;
   height: 100vh;
 }
+.project{
+  margin-top: 150px;
+}
+
+.bottomAnchor{
+display: none;
+}
 
 /* Mobile */
 @media (max-width: 700px) {
@@ -124,8 +131,14 @@
    margin-top: "100px";
    
   } */
- 
 
+  .project{
+    margin-top: 300px;
+  }
+ 
+  .bottomAnchor{
+    display: block;
+    }
   
 }
 

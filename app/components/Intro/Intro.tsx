@@ -33,7 +33,6 @@ const Intro = (props: Props) => {
     );
   };
 
-  const isMobile = window.innerWidth <= 768;
   // const navigate= useNavigate()
   return (
     <div style={{}}>
@@ -185,7 +184,8 @@ const Intro = (props: Props) => {
           sm={{ order: 2, span: 12 }}
           className={styles.imageContainer}
         >
-          {isMobile ? (
+          <div className={styles.mobileImage}>
+
             <div
               style={{
                 // backgroundColor: "bisque",
@@ -224,7 +224,9 @@ const Intro = (props: Props) => {
                 />
               </div>
             </div>
-          ) : (
+            </div>
+       <div className={styles.desktopImage}>
+
             <div
               style={{
                 display: "flex",
@@ -257,7 +259,8 @@ const Intro = (props: Props) => {
                 />
               </div>
             </div>
-          )}
+       </div>
+        
         </Col>
       </Row>
     </div>
