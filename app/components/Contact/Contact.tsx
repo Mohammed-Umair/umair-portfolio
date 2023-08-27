@@ -36,7 +36,7 @@ export const Contact = (props: Props) => {
         justifyContent: "center",
         alignItems: "center",
         minHeight: "100vh",
-        marginTop: isMobile ? "190px" : "9px",
+        marginTop: isMobile ? "200px" : "10px",
       }}
     >
       <div
@@ -45,6 +45,9 @@ export const Contact = (props: Props) => {
           marginBottom: "20px",
         }}
       >
+
+
+
         <Text
           type="secondary"
           style={{
