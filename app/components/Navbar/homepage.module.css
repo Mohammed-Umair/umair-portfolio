@@ -1,0 +1,189 @@
+.navContainer {
+  padding: 10px;
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+  height: 10vh;
+  margin-top: 20px;
+}
+
+.logo {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.anchors {
+  color: black;
+  text-decoration: none;
+}
+
+/* .anchors {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+} */
+
+.MenuIcon {
+  display: none;
+}
+
+.customDrawer
+  :where(.css-dev-only-do-not-override-byeoj0).ant-drawer-left
+  > .ant-drawer-content-wrapper {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: none;
+  /* Set box-shadow to none */
+  width: 70%;
+}
+
+.NavBarMenus {
+  display: none;
+  justify-content: space-around;
+}
+
+.NavBarMenus a {
+  /* font-family: Fira Sans; */
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-decoration: none;
+  position: relative;
+  color: black;
+  cursor: pointer;
+}
+
+/* pages */
+
+.Intro {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+.Skills {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .navContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: static;
+    top: 0;
+    left: 0;
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+
+  .anchorContainer {
+    display: none !important;
+  }
+
+  .MenuIcon {
+    display: flex;
+  }
+
+  .NavBarMenus {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    align-items: flex-start;
+    padding-left: 76px;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .NavBarMenus a {
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+    position: relative;
+    color: rgb(0 0 0);
+    line-height: 50px;
+
+    cursor: pointer;
+  }
+
+  /* //Pages */
+
+  /* .project{
+   margin-top: "100px";
+   
+  } */
+ 
+
+  
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .navContainer {
+    padding: 0px 10px;
+
+    position: static;
+    top: 0;
+    left: 0;
+  }
+
+  .anchorContainer {
+    display: none;
+  }
+
+  .MenuIcon {
+    display: flex;
+  }
+
+  .NavBarMenus {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* Center align the menu items */
+    padding-left: 40%;
+    /* Indent the text to the left */
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .NavBarMenus a {
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+    position: relative;
+    color: black;
+    cursor: pointer;
+    line-height: 50px;
+  }
+
+  /* //Pages */
+
+  .Intro {
+    width: 100vw;
+    height: 44vh;
+  }
+}
+
+/* @keyframes rotate {
+ from {
+   transform: rotate(360deg);
+ }
+ to {
+   transform: rotate(0deg);
+ }
+} */

@@ -1,0 +1,260 @@
+.imageShape {
+  /* background-color: #356565; */
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+  border-radius: 10px;
+  transform: scale(0);
+  border-radius: 20px;
+  transform-origin: center;
+  opacity: 0;
+  /* animation: shapeEntry 1s ease forwards; */
+  animation: emergeAndFade 2s forwards;
+}
+
+/* @keyframes shapeEntry {
+      0% {
+        transform: scale(0);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    } */
+
+@keyframes emergeAndFade {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.imageShape.active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Square */
+.image-square-shape {
+  width: 250px;
+  height: 250px;
+  background-color: #356565;
+  border-radius: 20px;
+}
+
+/* Circle */
+.image-circle-shape {
+  width: 250px;
+  height: 250px;
+  background-color: #356565;
+  border-radius: 50%;
+}
+
+/* Triangle */
+
+/* Pentagon */
+.image-pentagon-shape {
+  width: 250px;
+  height: 250px;
+  background-color: #356565;
+  border-radius: 20px;
+
+  clip-path: polygon(50% 0%, 100% 30%, 100% 70%, 50% 100%, 0% 70%, 0% 30%);
+}
+
+/* Octagon */
+.image-octagon-shape {
+  width: 250px;
+  height: 250px;
+  background-color: #356565;
+  border-radius: 20px;
+
+  clip-path: polygon(50% 0%, 100% 30%, 100% 70%, 50% 100%, 0% 70%, 0% 30%);
+}
+
+/* Nonagon */
+.image-nonagon-shape {
+  width: 250px;
+  height: 250px;
+  background-color: #356565;
+  border-radius: 20px;
+
+  clip-path: polygon(
+    50% 0%,
+    85% 15%,
+    100% 50%,
+    85% 85%,
+    50% 100%,
+    15% 85%,
+    0% 50%,
+    15% 15%
+  );
+}
+
+/* Decagon */
+.image-decagon-shape {
+  width: 250px;
+  height: 250px;
+  background-color: #356565;
+  border-radius: 20px;
+
+  clip-path: polygon(
+    50% 0%,
+    80% 10%,
+    100% 35%,
+    100% 65%,
+    80% 90%,
+    50% 100%,
+    20% 90%,
+    0% 65%,
+    0% 35%,
+    20% 10%
+  );
+}
+
+/* Heart */
+.image-heart-shape {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  /* background-color: pink; */
+  transform: rotate(0deg);
+  margin: -120px 0px 0px -60px;
+  border-radius: 20px;
+  right: 35px;
+  bottom: 0;
+}
+
+.image-heart-shape::before,
+.image-heart-shape::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 180px;
+  height: 220px;
+  border-radius: 100px 100px 0 0;
+  background-color: #356565;
+
+}
+
+.image-heart-shape::before {
+  left: -10px;
+  transform: rotate(-55deg);
+}
+
+.image-heart-shape::after {
+  left: 43px;
+  transform: rotate(47deg);
+}
+
+/* Rhombus */
+.image-rhombus-shape {
+  width: 230px;
+  height: 230px;
+  background-color: #356565;
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 20px;
+}
+
+.image-rhombus-shape:before {
+  content: "";
+  display: block;
+  width: 100%;
+  padding-top: 100%;
+}
+
+/* Trefoil */
+.image-trefoil {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    bottom: 60px;
+    right: 80px;
+  }
+  
+  .image-loop1,
+  .image-loop2,
+  .image-loop3 {
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    background-color: #356565;
+  }
+  
+  .image-loop1 {
+    top: 5px;
+    left: 0px;
+  }
+  
+  .image-loop2 {
+    top: 5px;
+    left: 90px;
+  }
+  
+  .image-loop3 {
+    top: 80px;
+    left: 45px;
+  }
+
+/* Quatrefoil */
+.quatrefoil-shape {
+  width: 65px;
+  height: 65px;
+  background-color: #356565;
+  position: relative;
+
+}
+
+.image-quatrefoil {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  bottom: 50px;
+  right: 40px;
+}
+
+.image-loops1,
+.image-loops2,
+.image-loops3,
+.image-loops4 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #356565;
+}
+
+.image-loops1 {
+    top: 0px;
+    left: -30px;
+  }
+  
+  .image-loops2 {
+    top: 0px;
+    left: 60px;
+  }
+  
+  .image-loops3 {
+    top:70px;
+    left: -30px;
+  }
+  
+  .image-loops4 {
+    top: 70px;
+    left: 60px;
+  }
+  
