@@ -4,7 +4,8 @@ import styles from "./intro.module.css";
 import { GithubOutlined, LinkedinFilled } from "@ant-design/icons";
 
 import ProfileImage from "../../assest/profile.jpeg";
-import newProfileImage from "../../assest/newProfile.png";
+import newProfileImage from "../../assest/prifile2.jpg";
+
 
 import { ImageShapesChanger } from "./ImageShapeChanger";
 interface Props {
@@ -214,8 +215,8 @@ const Intro = (props: Props) => {
                 }}
               >
                 <Image
-                  width={200}
-                  height={200}
+                  width={180}
+                  height={180}
                   src={newImageUrl}
                   style={{
                     borderRadius: "50%",
@@ -249,7 +250,7 @@ const Intro = (props: Props) => {
                 <Image
                   width={hovered ? 280 : 250}
                   height={hovered ? 280 : 250}
-                  src={imageUrl}
+                  src={newImageUrl}
                   onMouseEnter={handleImageHover}
                   onMouseLeave={handleImageHover}
                   style={{

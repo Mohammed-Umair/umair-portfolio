@@ -102,9 +102,7 @@ export const About = (props: Props) => {
               style={{
                 marginBottom: "16px",
                 display: "flex",
-
                 justifyContent: "space-around",
-                
               }}
             >
               <div>
