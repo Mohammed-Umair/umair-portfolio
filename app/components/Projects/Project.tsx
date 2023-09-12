@@ -55,7 +55,7 @@ export const Project = (props: Props) => {
     },
     {
       id: 3,
-      title: "Card 3",
+      title: "Car Parking App",
       option: "Personal",
       description: "Car-Parking-app: its a simple application in which user can generate slot for parking and the charegs for first hr is $10 and for next hrs is 2x as the frist hrs charge. ",
       image:
