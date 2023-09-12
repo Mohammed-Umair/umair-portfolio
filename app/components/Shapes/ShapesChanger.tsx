@@ -16,8 +16,6 @@ const shapes = [
   "quatrefoil",
 ];
 
-
-
 export const ShapesChanger = (props: Props) => {
   const [currentShapeIndex, setCurrentShapeIndex] = useState(0);
 
@@ -49,6 +47,7 @@ export const ShapesChanger = (props: Props) => {
         break;
       case "octagon":
         shapeContent = <div className="shape-inner octagon-shape" />;
+
         break;
       case "nonagon":
         shapeContent = <div className="shape-inner nonagon-shape" />;
