@@ -4,8 +4,12 @@ import { SendOutlined, GithubOutlined } from "@ant-design/icons";
 
 import Salon from "../../assest/projects/salon.png";
 import Books from "../../assest/projects/books.png";
+import Car from "../../assest/projects/carParking.png";
+
 const salonUrl = Salon.src;
 const booksUrl = Books.src;
+const carUrl = Car.src;
+
 
 interface Props {}
 
@@ -44,7 +48,7 @@ export const Project = (props: Props) => {
       title: "Books App",
       option: "Personal",
       description:
-        "Crafting Books App: Enhance reading. Intuitive design, personalized suggestions, effortless purchases, and seamless library management. Curated for a bespoke reading journey.",
+        " Books App: Enhance reading. Intuitive design,effortless purchases, and seamless library management. Curated for a bespoke reading journey.",
       image: booksUrl,
       appUrl: "https://mohammed-umair.github.io/app/",
       source: "https://github.com/Mohammed-Umair/app",
@@ -53,11 +57,11 @@ export const Project = (props: Props) => {
       id: 3,
       title: "Card 3",
       option: "Personal",
-      description: "Description 2",
+      description: "Car-Parking-app: its a simple application in which user can generate slot for parking and the charegs for first hr is $10 and for next hrs is 2x as the frist hrs charge. ",
       image:
-        "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-      appUrl: "",
-      source: "",
+      carUrl,
+      appUrl: "https://car-parking-app-one.vercel.app/",
+      source: "https://github.com/Mohammed-Umair/car-parking-app",
     },
   ];
 
