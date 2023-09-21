@@ -84,7 +84,7 @@ export const Contact = (props: Props) => {
             display: "flex ", // Make the Card's contents flex
             justifyContent: "space-between", // Space between the inner divs
             alignItems: "center",
-            padding: "0 20px", // Center items vertically
+            padding: "0 10px", // Center items vertically
             marginTop:"10px"
           }}
         >
@@ -101,7 +101,7 @@ export const Contact = (props: Props) => {
               }}
             />
             <div style={{
-                marginLeft:"10px"
+                marginLeft:"5px"
             }}>
             <a
               href={`mailto:${email}`}
@@ -121,6 +121,7 @@ export const Contact = (props: Props) => {
               display: "flex ", // Make the Card's contents flex
               justifyContent: "space-between", // Space between the inner divs
               alignItems: "center",
+              marginLeft:"10px"
             }}
           >
             <LinkedinFilled
@@ -129,7 +130,7 @@ export const Contact = (props: Props) => {
               }}
             />
               <div style={{
-                marginLeft:"10px"
+                marginLeft:"5px"
             }}>
             <a
             href="https://www.linkedin.com/in/umair-mohammed-dev3355"

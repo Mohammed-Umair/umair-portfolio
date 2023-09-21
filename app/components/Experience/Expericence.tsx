@@ -289,7 +289,7 @@ Managing Application level state using Redux.`,
                       color: "white",
                     }}
                   >
-                    Education
+                    Skills
                   </Title>
                   {/* <List
                     grid={{

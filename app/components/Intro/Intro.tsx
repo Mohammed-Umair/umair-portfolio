@@ -4,7 +4,7 @@ import styles from "./intro.module.css";
 import { GithubOutlined, LinkedinFilled } from "@ant-design/icons";
 
 import ProfileImage from "../../assest/profile.jpeg";
-import newProfileImage from "../../assest/prifile2.jpg";
+import newProfileImage from "../../assest/picofme.png";
 
 
 import { ImageShapesChanger } from "./ImageShapeChanger";
@@ -236,29 +236,43 @@ const Intro = (props: Props) => {
               }}
             >
               <div
+              style={{
+                // backgroundColor: "bisque",
+                height: "300px",
+                width: "390px",
+                position: "relative",
+              }}
+            >
+              <div
                 style={{
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
-
-                  borderRadius: "50%",
-                  backgroundColor: "lightgrey",
-                  transition: "all 0.3s",
                 }}
-                className={styles.image}
+              >
+                <ImageShapesChanger />
+              </div>
+
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                  zIndex: 999,
+                }}
               >
                 <Image
-                  width={hovered ? 280 : 250}
-                  height={hovered ? 280 : 250}
+                  width={180}
+                  height={180}
                   src={newImageUrl}
-                  onMouseEnter={handleImageHover}
-                  onMouseLeave={handleImageHover}
                   style={{
-                    borderRadius: hovered ? "50%" : "50%",
+                    borderRadius: "50%",
                   }}
                   preview={false}
                 />
               </div>
+            </div>
             </div>
        </div>
         

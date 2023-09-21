@@ -1,5 +1,5 @@
 .imageShape {
-  /* background-color: #356565; */
+  /* background-color: #FFD500; */
   width: 300px;
   height: 300px;
   display: flex;
@@ -45,7 +45,7 @@
 .image-square-shape {
   width: 250px;
   height: 250px;
-  background-color: #356565;
+  background-color: #FFD500;
   border-radius: 20px;
 }
 
@@ -53,7 +53,7 @@
 .image-circle-shape {
   width: 250px;
   height: 250px;
-  background-color: #356565;
+  background-color: #FFD500;
   border-radius: 50%;
 }
 
@@ -63,7 +63,7 @@
 .image-pentagon-shape {
   width: 250px;
   height: 250px;
-  background-color: #356565;
+  background-color: #FFD500;
   border-radius: 20px;
 
   clip-path: polygon(50% 0%, 100% 30%, 100% 70%, 50% 100%, 0% 70%, 0% 30%);
@@ -73,7 +73,7 @@
 .image-octagon-shape {
   width: 250px;
   height: 250px;
-  background-color: #356565;
+  background-color: #FFD500;
   border-radius: 20px;
 
   clip-path: polygon(50% 0%, 100% 30%, 100% 70%, 50% 100%, 0% 70%, 0% 30%);
@@ -83,7 +83,7 @@
 .image-nonagon-shape {
   width: 250px;
   height: 250px;
-  background-color: #356565;
+  background-color: #FFD500;
   border-radius: 20px;
 
   clip-path: polygon(
@@ -102,7 +102,7 @@
 .image-decagon-shape {
   width: 250px;
   height: 250px;
-  background-color: #356565;
+  background-color: #FFD500;
   border-radius: 20px;
 
   clip-path: polygon(
@@ -140,7 +140,7 @@
   width: 180px;
   height: 220px;
   border-radius: 100px 100px 0 0;
-  background-color: #356565;
+  background-color: #FFD500;
 
 }
 
@@ -158,7 +158,7 @@
 .image-rhombus-shape {
   width: 230px;
   height: 230px;
-  background-color: #356565;
+  background-color: #FFD500;
   transform: rotate(45deg);
   display: flex;
   align-items: center;
@@ -191,7 +191,7 @@
     width: 165px;
     height: 165px;
     border-radius: 50%;
-    background-color: #356565;
+    background-color: #FFD500;
   }
   
   .image-loop1 {
@@ -213,7 +213,7 @@
 .quatrefoil-shape {
   width: 65px;
   height: 65px;
-  background-color: #356565;
+  background-color: #FFD500;
   position: relative;
 
 }
@@ -235,7 +235,7 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-color: #356565;
+  background-color: #FFD500;
 }
 
 .image-loops1 {

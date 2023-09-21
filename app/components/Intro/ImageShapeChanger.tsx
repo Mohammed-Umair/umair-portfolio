@@ -38,7 +38,7 @@ export const ImageShapesChanger = (props: Props) => {
             width="280"
             height="280"
             viewBox="0 0 100 100"
-            fill="#356565"
+            fill="#FFD500"
             style={{
               borderRadius: "20px",
             }}
