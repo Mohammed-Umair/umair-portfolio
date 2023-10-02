@@ -28,7 +28,7 @@ const Intro = (props: Props) => {
 
   const downloadResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1ZaYIMTTz0jJCKS740BcWCDdAQBl5lTJ4/view?usp=drive_link",
+      "https://drive.google.com/file/d/1GPJ3EREFN_sYUN9V3Gmmhb-6Ll6c_7IE/view?usp=drive_link",
       "_blank",
       "noopener,noreferrer"
     );
