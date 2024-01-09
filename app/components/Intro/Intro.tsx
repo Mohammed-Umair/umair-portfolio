@@ -28,7 +28,7 @@ const Intro = (props: Props) => {
 
   const downloadResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1GPJ3EREFN_sYUN9V3Gmmhb-6Ll6c_7IE/view?usp=drive_link",
+      "https://drive.google.com/file/d/1f_AKRJlcZR1DAYW9IMizt2WVkb4XvKNG/view?usp=sharing",
       "_blank",
       "noopener,noreferrer"
     );
@@ -134,7 +134,7 @@ const Intro = (props: Props) => {
                     justifyContent: "space-between",
                     alignItems: "center",
                   }}
-                  href="https://www.linkedin.com/in/umair-mohammed-dev3355"
+                  href="https://www.linkedin.com/in/mohammed-umair-1523b72a1"
                   target="_blank"
                 >
                   <LinkedinFilled

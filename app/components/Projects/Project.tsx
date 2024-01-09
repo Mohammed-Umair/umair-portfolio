@@ -198,6 +198,7 @@ export const Project = (props: Props) => {
       <div
         style={{
           padding: "50px",
+          marginTop: isMobile ? "100px" : "0px",
         }}
       >
         <Slider
@@ -287,17 +288,17 @@ export const Project = (props: Props) => {
                   description={
                     expandedCardId === card.id
                       ? card.description
-                      : `${card.description.split(' ').slice(0, 15).join(' ')}${
-                          card.description.split(' ').length > 15 ? ' ...' : ''
+                      : `${card.description.split(" ").slice(0, 15).join(" ")}${
+                          card.description.split(" ").length > 15 ? " ..." : ""
                         }`
                   }
                 />
-                {card.description.split(' ').length > 15 && (
+                {card.description.split(" ").length > 15 && (
                   <Button
                     type="link"
                     onClick={() => handleToggleDescription(card.id)}
                   >
-                    {expandedCardId === card.id ? 'Less' : 'More'}
+                    {expandedCardId === card.id ? "Less" : "More"}
                   </Button>
                 )}
               </Card>

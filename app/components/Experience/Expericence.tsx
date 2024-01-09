@@ -151,20 +151,21 @@ export const Expericence = (props: Props) => {
 
   const data = [
     {
+      title: "Futurista Technologies",
+      dur: "jan 2023 - Present",
+      desc: `I was responsible for creating a dynamic and user-friendly interface using React.js and Material UI, focusing on responsiveness across various devices. My role involved designing and developing React components, ensuring they were interactive and visually appealing. Additionally, I integrated API services using Axios to fetch and send data, and I managed the overall state of the application using Redux for efficient state management`,
+    },
+    {
       title: "Extended Web App Tech",
       dur: "Apr 2022 - Dec 2022",
-      desc: `My role was to make Responsive and Interactive UI using React.js and Material UI.
-Design and developing components in React. 
-Connecting to API services using Axios.
-Managing Application level state using Redux.`,
+      desc: `I built a user-friendly and responsive interface using React.js and Material UI. I designed and developed components, made them interactive, and connected to external data using Axios for API communication`,
     },
     {
       title: "Pickup Biz Software",
       dur: "July 2021 - Mar 2022",
-      desc: `My role was to make Responsive and Interactive UI using React.js and Material UI.
-Design and developing components in React. 
-Connecting to API services using Axios.
-Managing Application level state using Redux.`,
+      desc: `My role was to make Responsive web pages in React.js.
+
+`,
     },
   ];
 
@@ -190,7 +191,7 @@ Managing Application level state using Redux.`,
           Experience
         </Title>
       </div>
-      
+
       <div
         style={{
           marginTop: isMobile ? "20px" : "50px",
