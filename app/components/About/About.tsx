@@ -136,7 +136,7 @@ export const About = (props: Props) => {
                       fontWeight: "700",
                     }}
                   >
-                    2.7+ years Frontend Development
+                    1.6 years Frontend Development
 
                      {/* 1.6 */}
                   </Text>
@@ -197,7 +197,7 @@ export const About = (props: Props) => {
               journey into the world of development began without a traditional
               IT background. Instead, I've honed my skills through practical
               experience and a relentless curiosity for technology. Over the
-              course of my career, which spans over 2.7 years, I've had the
+              course of my career, which spans over 1.6 years, I've had the
               privilege of working on diverse projects, where I've mastered the
               art of creating responsive and interactive user interfaces.
             </div>

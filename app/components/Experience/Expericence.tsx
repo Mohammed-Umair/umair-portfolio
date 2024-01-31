@@ -150,11 +150,11 @@ export const Expericence = (props: Props) => {
   }, []);
 
   const data = [
-    {
-      title: "Futurista Technologies",
-      dur: "jan 2023 - Present",
-      desc: `I was responsible for creating a dynamic and user-friendly interface using React.js and Material UI, focusing on responsiveness across various devices. My role involved designing and developing React components, ensuring they were interactive and visually appealing. Additionally, I integrated API services using Axios to fetch and send data, and I managed the overall state of the application using Redux for efficient state management`,
-    },
+    // {
+    //   title: "Futurista Technologies",
+    //   dur: "jan 2023 - Present",
+    //   desc: `I was responsible for creating a dynamic and user-friendly interface using React.js and Material UI, focusing on responsiveness across various devices. My role involved designing and developing React components, ensuring they were interactive and visually appealing. Additionally, I integrated API services using Axios to fetch and send data, and I managed the overall state of the application using Redux for efficient state management`,
+    // },
     {
       title: "Extended Web App Tech",
       dur: "Apr 2022 - Dec 2022",

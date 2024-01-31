@@ -302,7 +302,7 @@ const HomePage: React.FC = () => {
             color: "black",
           }}
         >
-          Copyright © 2023{" "}
+          Copyright © 2024{" "}
           <b
             style={{
               fontWeight: "700",

@@ -23,7 +23,8 @@ export const Contact = (props: Props) => {
   }, []);
 
 
-  const email = "mohdUmair7888@gmail.com"; // Replace with your email address
+  const email = "umair03355@gmail.com"; // Replace with your email address
+
 
   const handleEmailClick = () => {
     window.location.href = `mailto:${email}`;
@@ -133,7 +134,7 @@ export const Contact = (props: Props) => {
                 marginLeft:"5px"
             }}>
             <a
-            href="https://www.linkedin.com/in/mohammed-umair-1523b72a1"
+            href="https://www.linkedin.com/in/umair-mohammed-dev3355"
             target="_blank"
 
               style={{
