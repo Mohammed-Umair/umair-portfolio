@@ -21,6 +21,8 @@ import ProfileImage from "../../assest/profile.jpeg";
 import Expere from "../../assest/quality.png";
 
 import Education from "../../assest/images.png";
+
+
 import Empoyee from "../../assest/employe.png";
 
 import "./experience.css";
@@ -163,9 +165,7 @@ export const Expericence = (props: Props) => {
     {
       title: "Pickup Biz Software",
       dur: "July 2021 - Mar 2022",
-      desc: `My role was to make Responsive web pages in React.js.
-
-`,
+      desc: `My role was to make Responsive web pages in React.js.`,
     },
   ];
 
@@ -215,7 +215,7 @@ export const Expericence = (props: Props) => {
                 <Card
                   style={{
                     width: isMobile ? 330 : 500,
-
+                    height: isMobile ? 350 : 400,
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "space-around",
@@ -346,8 +346,13 @@ export const Expericence = (props: Props) => {
                         display: "flex",
                         justifyContent: "center",
                         alignItems: "center",
+                        ":hover": {
+                          width: "85px",
+                          height: "85px",
+                          backgroundColor: "red",
+                        },
+                        
                       };
-
                       return (
                         <Card style={cardStyle}>
                           <span

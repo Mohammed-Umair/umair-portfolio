@@ -43,16 +43,16 @@ export const Project = (props: Props) => {
   };
 
   const cardData = [
-    {
-      id: 1,
-      title: "Salon App",
-      option: "Employee",
-      description:
-        "Tailored salon app development for beauty pros. Streamline operations with appointment scheduling, online booking, and secure payments. Customized efficiency.",
-      image: salonUrl,
-      appUrl: "https://salonapp-92560.web.app/",
-      source: "",
-    },
+    // {
+    //   id: 1,
+    //   title: "Salon App",
+    //   option: "Employee",
+    //   description:
+    //     "Tailored salon app development for beauty pros. Streamline operations with appointment scheduling, online booking, and secure payments. Customized efficiency.",
+    //   image: salonUrl,
+    //   appUrl: "https://salonapp-92560.web.app/",
+    //   source: "",
+    // },
     {
       id: 2,
       title: "Books App",
@@ -199,6 +199,8 @@ export const Project = (props: Props) => {
         style={{
           padding: "50px",
           marginTop: isMobile ? "100px" : "0px",
+          marginLeft: isMobile ? "0px" : "50px",
+
         }}
       >
         <Slider
