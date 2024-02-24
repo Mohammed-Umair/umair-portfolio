@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
-import { Anchor, Drawer, Typography } from "antd";
+import { Anchor, Drawer, Typography ,Spin} from "antd";
 import styles from "./homepage.module.css";
 import { MenuOutlined, CloseCircleOutlined } from "@ant-design/icons";
 import Intro from "../Intro/Intro";
@@ -78,6 +78,7 @@ const HomePage: React.FC = () => {
     };
   }, []);
 
+ 
   const contactRef = useRef(null);
   const handleIntroClick = () => {
     if (contactRef.current) {
