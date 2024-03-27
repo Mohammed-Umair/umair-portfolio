@@ -4,7 +4,11 @@ import styles from "./intro.module.css";
 import { GithubOutlined, LinkedinFilled } from "@ant-design/icons";
 
 import ProfileImage from "../../assest/profile.jpeg";
-import newProfileImage from "../../assest/picofme.png";
+import newProfileImage from "../../assest/umairFinal.png";
+// import newProfileImage from "../../assest/picofme.png";
+// 
+import newProfileImage2 from "../../assest/prifile2.jpg";
+
 
 
 import { ImageShapesChanger } from "./ImageShapeChanger";
@@ -23,6 +27,8 @@ const Intro = (props: Props) => {
   };
   const imageUrl = ProfileImage.src;
   const newImageUrl = newProfileImage.src;
+  const newImageUrl2 = newProfileImage2.src;
+
 
   // console.log("ProfileImage", imageUrl);
 
@@ -215,8 +221,8 @@ const Intro = (props: Props) => {
                 }}
               >
                 <Image
-                  width={180}
-                  height={180}
+                  width={200}
+                  height={200}
                   src={newImageUrl}
                   style={{
                     borderRadius: "50%",
