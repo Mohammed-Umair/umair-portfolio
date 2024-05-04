@@ -162,11 +162,11 @@ export const Expericence = (props: Props) => {
       dur: "Apr 2022 - Dec 2022",
       desc: `I built a user-friendly and responsive interface using React.js and Material UI. I designed and developed components, made them interactive, and connected to external data using Axios for API communication`,
     },
-    {
-      title: "Pickup Biz Software",
-      dur: "July 2021 - Mar 2022",
-      desc: `My role was to make Responsive web pages in React.js.`,
-    },
+    // {
+    //   title: "Pickup Biz Software",
+    //   dur: "July 2021 - Mar 2022",
+    //   desc: `My role was to make Responsive web pages in React.js.`,
+    // },
   ];
 
   return (
